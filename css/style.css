@@ -1,0 +1,168 @@
+body{
+    background-color: #141922;
+    color: white;
+}
+
+.layout-top{
+    height: 90vh;
+}
+
+.layout-bottom{
+    height: 10vh;
+}
+
+.layout-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+
+.layout-main{
+    flex-basis: 90%;
+    overflow-y: auto;
+   
+}
+
+.layout-cta{
+    padding: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #090B12;
+    font-size: 0.8rem;
+    color: white;
+    border-color: white;
+}
+
+.btn{
+    border: 1px solid white;
+
+}
+
+.btn--pill{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border-color: 1px solid white;
+}
+
+.btn:hover{
+    color: greenyellow;
+}
+
+
+.layout-sidebar-top{
+    height: calc(100% - 100px);
+    overflow: auto;
+}
+
+.layout-sidebar-bottom{
+    height: 100px;
+}
+
+.layout-bottom{
+    background-color: #282828;
+}
+
+.layout-sidebar-logo img[alt$="big"]{
+    display: none;
+}
+
+.layout-sidebar-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.layout-sidebar-menu ul li a span{
+    display: none;
+}
+
+.layout-sidebar-menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.layout-sidebar-menu ul li a{
+    padding-inline: 10px;
+    text-transform: capitalize;
+}
+
+.layout-sidebar-menu ul li{
+    border-left:1px solid greenyellow;
+}
+
+.layout-main-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-block: 10px;
+    
+}
+
+.layout-sidebar-bottom a span,
+.layout-sidebar-bottom hr{
+    display: none;
+
+}
+
+.layout-sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.layout-sidebar-bottom a img[alt="profile"]{
+    border-radius: 50%;
+    background-color: #797B81;
+}
+
+.layout-main-album{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-inline: 15px;
+}
+
+.layout-main-album .card,
+.personal-playlist .card{
+    flex-basis: calc(100%/2 - 10px);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.layout-main-album .card img,
+.personal-playlist .card img{
+    width: 100%;
+}
+
+.layout-main h2{
+    margin-block: 10px;
+    padding-inline: 15px;
+}
+
+.layout-main-album .card span{
+    color: #797B81;
+}
+
+
+
+ 
