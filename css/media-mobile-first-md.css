@@ -1,6 +1,0 @@
-@media screen and (min-width:768px){
-    .layout-sidebar{
-        min-width: 250px;
-        flex-shrink: 0;
-    }
-}
